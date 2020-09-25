@@ -79,6 +79,16 @@ def game_hash
       blocks:15,
       slam_dunks:10
     },
+      "DeSagna Diop" => {
+      number:2,
+      shoe:14,
+      points:24,
+      rebound:12,
+      assists:12,
+      steals:4,
+      blocks:5,
+      slam_dunks:5
+    },
       "" => {
       number:0,
       shoe:16,
