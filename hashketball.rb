@@ -11,7 +11,7 @@ def game_hash
       assists:12,
       steals:3,
       blocks:1,
-      slam_dunks:1,
+      slam_dunks:1
     },
       "Reggie Evans" => {
       number:30,
@@ -21,7 +21,7 @@ def game_hash
       assists:12,
       steals:12,
       blocks:12,
-      slam_dunks:7,
+      slam_dunks:7
     },
       "Brook Lopez" => {
       number:11,
@@ -31,7 +31,7 @@ def game_hash
       assists:10,
       steals:3,
       blocks:1,
-      slam_dunks:15,
+      slam_dunks:15
     },
       "Mason Plumlee" => {
       number:1,
@@ -41,7 +41,7 @@ def game_hash
       assists:6,
       steals:3,
       blocks:8,
-      slam_dunks:5,
+      slam_dunks:5
     },
       "Jason Terry" => {
       number:31,
@@ -51,13 +51,35 @@ def game_hash
       assists:2,
       steals:4,
       blocks:11,
-      slam_dunks:1,
+      slam_dunks:1
     }
     ]
   },
   away: {
     team_name: {"Charlotte Hornets"},
-    colors: {},
-    players: {}
+    colors: ["Turquoise", "Purple"],
+    players: {
+        "Jeff Adrien" => {
+      number:4,
+      shoe:18,
+      points:10,
+      rebound:1,
+      assists:1,
+      steals:2,
+      blocks:7,
+      slam_dunks:2
+    },
+      "" => {
+      player_name:
+      number:0,
+      shoe:16,
+      points:22,
+      rebound:12,
+      assists:12,
+      steals:3,
+      blocks:1,
+      slam_dunks:1,
+    },
+    }
   },
 end
